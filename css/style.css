@@ -773,4 +773,68 @@ a{
     line-height: 26px;
     margin: 0 0 2px;
 }
+
+.contact-section .contact-item p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #555555;
+    margin: 0;
+}
+
+.footer{
+    padding-top: 80px;
+    text-align: center;
+}
+
+.footer .footer-logo a{
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff;
+    display: block;
+    margin: 0 0 15px;
+    text-decoration: none;
+}
+.footer .footer-text p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #eeeeee;
+    font-weight: 400;
+    margin: 0 0 25px;
+}
+
+.footer .footer-social-links{
+    margin-bottom: 80px;
+}
+
+.footer .footer-social-links a{
+    display: inline-block;
+    text-align: center;
+    margin: 0 4px;
+    text-decoration: none;
+}
+
+.footer .footer-social-links a i{
+    height: 40px;
+    width: 40px;
+    border: 1px solid #ffffff;
+    display: block;
+    color: #ffffff;
+    line-height: 38px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.footer .copyright{
+    border-top: 2px solid rgba(255,255,255,0.1);
+    padding: 20px 15px;
+}
+.footer .copyright p{
+    margin: 0;
+    font-size: 16px;
+    line-height: 26px;
+    color: #eeeeee;
+    font-weight: 400;
+}
 /* contact us section end*/

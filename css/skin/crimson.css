@@ -1,3 +1,4 @@
+.footer,
 .mybtn2,
 .newsletter-section::before,
 .testimonial-section::before,
@@ -9,6 +10,7 @@
 .header{
     background-color: #d70d25;
 }
+.contact-section .contact-item h5,
 .contact-section .contact-item .icon i,
 .faq-section .support-text a,
 .product-section .product-content .product-price .new-price,
