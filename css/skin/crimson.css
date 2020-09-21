@@ -1,0 +1,26 @@
+.mybtn2,
+.newsletter-section::before,
+.testimonial-section::before,
+.product-section .owl-carousel .owl-nav button.owl-next,
+.product-section .owl-carousel .owl-nav button.owl-prev,
+.features-section .features-items:hover,
+.section-title .title::before,
+.home-section,
+.header{
+    background-color: #d70d25;
+}
+
+.faq-section .support-text a,
+.product-section .product-content .product-price .new-price,
+.features-section .features-items .icons i,
+.about-section .about-content ul li i,
+.section-title .title,
+.testimonial-section .client-info h5,
+.mybtn1:hover,
+.mybtn1{
+    color: #d70d25;
+}
+
+.testimonial-section .client-info img{
+    border-color: #d70d25;
+}
