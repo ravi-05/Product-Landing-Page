@@ -11,7 +11,7 @@
 .section-title .title::before,
 .home-section,
 .header{
-    background-color: #222222;
+    background-color: black;
 }
 .contact-section .contact-item h5,
 .contact-section .contact-item .icon i,
@@ -23,15 +23,15 @@
 .testimonial-section .client-info h5,
 .mybtn1:hover,
 .mybtn1{
-    color: #222222;
+    color: black;
 }
 .contact-section .contact-form .form-control:focus,
 .testimonial-section .client-info img{
-    border-color: #222222;
+    border-color: black;
 }
 
 @media(max-width: 991px){
     .header .navbar #collapsibleNavbar .nav-item .nav-link{
-        color: #222222;
+        color: black;
     }
 }
