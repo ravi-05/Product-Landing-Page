@@ -2,7 +2,7 @@ $(document).ready(function(){
 
     $('body').scrollspy({target: ".navbar-nav", offset: 67});
 
-    $(".navbar-nav").on('click' ,function(event){
+    $(".navbar-nav a").on('click' ,function(event){
         if(this.hash !== ""){
             event.preventDefault();
 
@@ -13,6 +13,8 @@ $(document).ready(function(){
             },800,function(){
                 window.location.hash = hash;
             });
+
+            $(".navbar-collapse").collapse("hide");
         }
     });
 

@@ -14,8 +14,19 @@
 
     <link rel="stylesheet" href="./css/responsive.css">
 
+    <link rel="stylesheet" href="./css/styleSwitcher.css">
+
     <!-----Crimson.css-->
     <link rel="stylesheet" href="./css/skin/crimson.css">
+
+    <!--------------------Live Style Switcher--------->
+    
+    
+    <link rel="stylesheet" class="alternate-style" href="./css/skin/crimson.css" disabled>
+    <link rel="stylesheet" class="alternate-style href="./css/skin/blue.css" disabled>
+    <link rel="stylesheet" class="alternate-style href="./css/skin/indigo.css" disabled>
+    <link rel="stylesheet" class="alternate-style href="./css/skin/aqua.css" disabled>
+    <link rel="stylesheet" class="alternate-style href="./css/skin/black.css" disabled>
 
     <!-----owl Carousel-->
     <link rel="stylesheet" href="./css/owl.carousel.min.css">
@@ -28,7 +39,7 @@
     <!--------header------>
     <header class="header fixed-top">
         <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-dark">
+            <nav class="navbar navbar-expand-lg navbar-light">
                 <!-- Brand -->
                 <a class="navbar-brand" href="#"><span class="logo-circle"></span>Fast Track</a>
               
@@ -41,7 +52,7 @@
                 <div class="collapse navbar-collapse" id="collapsibleNavbar">
                   <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                      <a class="nav-link active" href="#">Home</a>
+                      <a class="nav-link active" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="#about">About</a>
@@ -87,7 +98,7 @@
                     <a href="#" class="btn mybtn1">By For $150</a>
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 order-first order-lg-last">
                 <div class="home-img">
                     <img src="./img/watch-01.png" alt="">
                 </div>
@@ -107,7 +118,7 @@
                     <img src="./img/watch-02.jpg" class="img-fulid">
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 order-first order-lg-last">
                 <div class="section-title">
                     <h1 class="title">About Product</h1>
                     <h2 class="subtitle">Awesome digital watch can make your life easier</h2>
@@ -513,7 +524,7 @@
                     </div>
                 </form>
             </div>
-            <div class="col-md-5">
+            <div class="col-md-5 order-first order-md-last">
                 <!----contact item start-->
                 <div class="contact-item">
                     <div class="icon">
@@ -574,7 +585,20 @@
 
 <!---Footer Section End---->
 
+<!----------------Live Style Switcher start-------------------->
 
+<div class="style-switcher">
+    <h5>Style Switcher</h5>
+    <ul class="list-unstyled">
+        <li title="crimson" style="background-color: #d70d25" onclick="setActiveStyle('crimson')"></li>
+        <li title="crimson" style="background-color: #4948d4" onclick="setActiveStyle('blue')"></li>
+        <li title="crimson" style="background-color: #05b3b6" onclick="setActiveStyle('aqua')"></li>
+        <li title="crimson" style="background-color: #6400ae" onclick="setActiveStyle('indigo')"></li>
+        <li title="crimson" style="background-color: #222222" onclick="setActiveStyle('black')"></li>
+    </ul>
+</div>
+
+<!----------------Live Style Switcher end---------------------->
 <!----JQuer.js------>
 <script src="./js/jquery.min.js"></script>
 
@@ -587,6 +611,8 @@
 <!----Owl Carosul--->
 <script src="./js/owl.carousel.min.js"></script>
 
+<!-----------Style Switcher js------->
+<script src="./js/styleSwitcher.js"></script>
 
 <!------main.js----->
 <script src="./js/main.js"></script>
