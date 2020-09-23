@@ -179,10 +179,10 @@ a{
 }
 
 
-.home-section .home-content h1{
-    font-size: 55px;
+.home-section .home-content h4{
+    font-size: 40px;
     color: #ffffff;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 60px;
     margin: 0;
 }
